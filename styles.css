@@ -26,21 +26,32 @@ h1{
     text-align: center;
 }
 .textBox{
-    margin: 5rem;
+    margin: 3vw 20vw;
+    h2{
+        margin-top: 3vw;
+    }
 }
 .photo{
-    size: 40%;
+    /* size: 40%; */
+    width:60vw;
+}
+.photoRow{
+    display: flex;
+    justify-content: space-between;
 }
 .photos{
     display: flex;
     text-align:center;
-
 }
 .header{
     size: 50px;
 }
 .metricTitle{
     display: flex;
-    background-color: #D4E8FF;
+    background-color: #856D8D;
     justify-content: center;
+    h1{
+        color: #ffffff;
+    }
+
 }
