@@ -18,7 +18,7 @@
     margin: 2%;
 }
 .headerLinkContainer{
-    min-width:16rem;
+    min-width:18rem;
     margin: 0.5%;
     margin-bottom: 1rem;
 }
@@ -37,7 +37,8 @@ h1{
 }
 .photoRow{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+
 }
 .photos{
     display: flex;
@@ -53,5 +54,7 @@ h1{
     h1{
         color: #ffffff;
     }
-
+}
+.pageFooter{
+    margin: 10rem;
 }
